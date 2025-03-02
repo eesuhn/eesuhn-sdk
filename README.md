@@ -10,5 +10,10 @@ Just a lightweight development kit.
 pip install eesuhn-sdk
 ```
 
+## Usage
+```python
+import eesuhn_sdk
+```
+
 ## License
 This project is under the MIT License — see the [LICENSE](LICENSE) file for details.
