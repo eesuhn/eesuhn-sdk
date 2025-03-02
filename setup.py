@@ -8,7 +8,7 @@ long_desc = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='eesuhn_sdk',
-    version='0.1.0',
+    version='0.1.1',
     description='eesuhn\'s Personal SDK',
     long_description=long_desc,
     long_description_content_type='text/markdown',
