@@ -7,7 +7,7 @@ here = pathlib.Path(__file__).parent.resolve()
 long_desc = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
-    name='eesuhn-sdk',
+    name='eesuhn_sdk',
     version='0.1.0',
     description='eesuhn\'s Personal SDK',
     long_description=long_desc,
@@ -21,13 +21,8 @@ setup(
         'Programming Language :: Python :: 3',
     ],
     keywords='eesuhn',
-    packages=find_packages(where='eesuhn-sdk'),
+    packages=find_packages(),
     python_requires='>=3.12',
-    entry_points={
-        'console_scripts': [
-            'eesuhn=eesuhn:main',
-        ],
-    },
     project_urls={
         'Homepage': 'https://github.com/eesuhn/eesuhn-sdk',
         'Repository': 'https://github.com/eesuhn/eesuhn-sdk',
