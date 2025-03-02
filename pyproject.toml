@@ -6,28 +6,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "eesuhn-sdk"
-version = "0.1.0"
 dynamic = [
 	"version",
 ]
 requires-python = ">=3.12"
 authors = [
-	{
-		name = "eesuhn",
-		email = "eason.yihong@gmail.com"
-	}
+	{ name = "eesuhn", email = "eason.yihong@gmail.com" }
 ]
 maintainers = [
-	{
-		name = "eesuhn",
-		email = "eason.yihong@gmail.com"
-	}
+	{ name = "eesuhn", email = "eason.yihong@gmail.com" }
 ]
 description = "eesuhn's Personal SDK"
 readme = "README.md"
-license = {
-	file = "LICENSE"
-}
+license = { file = "LICENSE" }
 keywords = [
 	"eesuhn",
 ]
