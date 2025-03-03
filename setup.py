@@ -8,7 +8,7 @@ long_desc = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='eesuhn_sdk',
-    version='0.1.2',
+    version='0.1.3',
     description='eesuhn\'s Personal SDK',
     long_description=long_desc,
     long_description_content_type='text/markdown',
@@ -23,6 +23,9 @@ setup(
     keywords='eesuhn',
     packages=find_packages(),
     python_requires='>=3.12',
+    package_data={
+        "eesuhn_sdk": ["py.typed"],
+    },
     project_urls={
         'Homepage': 'https://github.com/eesuhn/eesuhn-sdk',
         'Repository': 'https://github.com/eesuhn/eesuhn-sdk',
