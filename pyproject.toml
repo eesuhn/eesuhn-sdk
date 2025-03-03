@@ -32,3 +32,6 @@ classifiers = [
 Homepage = "https://github.com/eesuhn/eesuhn-sdk"
 Repository = "https://github.com/eesuhn/eesuhn-sdk"
 Issues = "https://github.com/eesuhn/eesuhn-sdk/issues"
+
+[tool.setuptools.package-data]
+"eesuhn_sdk" = ["py.typed"]

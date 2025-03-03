@@ -23,6 +23,9 @@ setup(
     keywords='eesuhn',
     packages=find_packages(),
     python_requires='>=3.12',
+    package_data={
+        "eesuhn_sdk": ["py.typed"],
+    },
     project_urls={
         'Homepage': 'https://github.com/eesuhn/eesuhn-sdk',
         'Repository': 'https://github.com/eesuhn/eesuhn-sdk',
